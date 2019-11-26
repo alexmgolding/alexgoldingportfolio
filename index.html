@@ -1,21 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
-<!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<!-- Bootstrap JS Scripts-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<!-- CSS Style Sheet -->
+    <title>AGolding Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- CSS Style Sheet -->
     <link rel="stylesheet" href="style.css">
-<!-- Font Awesome Stylesheet-->
-    <script src="https://kit.fontawesome.com/f9ab722fd6.js" crossorigin="anonymous"></script>
-<!-- For your portfolio, you’re expected to have the following website elements included.
+    <!-- For your portfolio, you’re expected to have the following website elements included.
 Portfolio
 Landing/Header Page
 Navbar
@@ -28,62 +24,83 @@ Contact Section
 
 -->
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
-        <a class="navbar-brand"><i class="fab fa-dev mr-2"></i>profile</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#projects">Projects <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <section id="nav">
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <a class="navbar-brand" href=""><i class="fab fa-dev mr-2"></i>profile</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuBar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuBar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="navbar-btn">
+                        <a class="btn btn-success"
+                            href="https://docs.google.com/document/d/e/2PACX-1vR8-gzMY805YdS4ebExnTOWD97GeQsIqQrLSpAZPHNf1MtXtsxGrZ3yR0Yznx_goA5NAsSdWXQsHjKl/pub"
+                            target="blank">Resume Download</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
     <section id="title">
         <div class="container">
-            <div class="row"></div>
-            <div class="col-lg-6 text-center">
-                <h1>Alex Golding Junior Web Developer</h1>
-            </div>
-            <div class="col-lg-6">
-                <img src="" alt="display" class="title-image">
+            <div class="row">
+                <div class="title-heading col-md 12">
+                    <h1>Alex Golding | Junior Web Developer</h1>
+                    <a href="https://docs.google.com/document/d/e/2PACX-1vR8-gzMY805YdS4ebExnTOWD97GeQsIqQrLSpAZPHNf1MtXtsxGrZ3yR0Yznx_goA5NAsSdWXQsHjKl/pub" target="blank" class="btn btn-outline-dark btn-lg download-button"><i
+                            class="fas fa-file-download"> </i>
+                        Resume</a>
+                    <a href="" target="blank"
+                        class="btn btn-outline-dark btn-lg download-button"><i class="fab fa-linkedin"></i>
+                        LinkedIn</a>
+                </div>
             </div>
         </div>
     </section>
-<!-- About Me -->
+    <!-- About Me -->
     <section id="about-me">
         <div class="container">
             <h2 class="text-center">About Me</h2>
-            <p>
-                Hi, my name is Alex Golding and I'm an aspiring front end web developer living in the Indianapolis, Indiana area.
-
-                I've got experience in many different career fields which I can draw on my past experiences to bring different perspectives to your company.
-
-                When not in class I enjoy walking my dogs, enjoying whiskey and watching football.
-            </p>
-        </div>
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <img src="images/headshot.jpeg" alt="" class="title-image">
+                </div>
+                <div class="col-md-9 col-xs- text-center">
+                    <p>Hi, my name is Alex Golding and I'm an aspiring front end web developer living in the
+                        Indianapolis, Indiana area. I've always had an interesting in learning how computers interpret
+                        code for the end users. This interest led me to Eleven Fifty's JavaScript program to learn more about front end development.
+                        <br>
+                        <br>
+                        When not in class I enjoy walking my dogs, fishing and watching football.
+                    </p>
+                </div>
+            </div>
     </section>
-<!-- Projects -->
+    <!-- Projects -->
     <section id="projects">
         <div class="container">
-            <h2 class="text-center">My Projects</h2>
+            <h2 class="text-center">Projects</h2>
             <div class="row">
                 <div class="col-lg-4 mb-4">
                     <div class="card" style="width: 100%;">
                         <img src="images/Tutorial Page.jpeg" class="card-img-top" alt="">
                         <div class="card-body">
                             <h5 class="card-title"><i class="fab fa-js-square mr-1"></i>Tutorial Page</h5>
-                            <p class="card-text">Soimme quick example text to build on the card title and make up the bulk of the card's
-                                content.</p>
+                            <p class="card-text">For this project we were introduced to Bootstrap and utilized this
+                                heavily for this project. There was a deeper understanding into HTML elements and CSS
+                                elements and events that also appear on the page.</p>
+                            <a href="https://alexmgolding.github.io/tutorial/" target="blank">Visit Tutorial Page on
+                                Github</a>
                             <h6>Tags</h6>
-                                HTML<i class="fab fa-html5"></i>, CSS, <i class="fab fa-bootstrap"></i>ootstrap
+                            HTML<i class="fab fa-html5"></i>, CSS<i class="fab fa-css3-alt"></i>, <i
+                                class="fab fa-bootstrap"></i>ootstrap
                         </div>
                     </div>
                 </div>
@@ -92,46 +109,51 @@ Contact Section
                         <img src="images/pacman.jpeg" class="card-img-top" alt="">
                         <div class="card-body">
                             <h5 class="card-title">Pac-Man CSS Creature</h5>
-                            <p class="card-text">Soimme quick example text to build on the card title and make up the bulk of the card's
-                                content.</p>
+                            <p class="card-text">Utilizing HTML and CSS properties I created Pac-Man for this project.
+                            </p>
+                            <a href="https://codepen.io/yeti14/pen/dyyWbEB" target="blank">Pac-Man CodePen</a>
                             <h6>Tags</h6>
-                                HTML<i class="fab fa-html5"></i>, CSS
+                            HTML<i class="fab fa-html5"></i>, CSS <i class="fab fa-css3-alt"></i>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="card" style="width: 100%;">
-                        <img src="images/Tutorial Page.jpeg" class="card-img-top" alt="">
+                        <img src="images/API.png" class="card-img-top" alt="">
                         <div class="card-body">
                             <h5 class="card-title">API Project</h5>
-                            <p class="card-text">Info on API Project goes here.</p>
+                            <p class="card-text">Using an API from Barchart.com this API pulls back the closing prices
+                                of a specific stock the user is searching for.</p>
+                            <a href="https://stock-api-67c70.firebaseapp.com/" target="blank">Stock Indices Search</a>
                             <h6>Tags</h6>
-                            HTML<i class="fab fa-html5"></i>, CSS,<i class="fab fa-js-square mr-1 ml-1"></i>JavaScript
+                            HTML<i class="fab fa-html5"></i>, CSS<i class="fab fa-css3-alt"></i>,<i
+                                class="fab fa-js-square mr-1 ml-1"></i>JavaScript
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-<!-- Contact Me -->
+    <!-- Contact Me -->
     <section id="contact">
         <h2 class="text-center text-uppercase">Contact</h2>
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    If you would like to connect please fill out the contact form on this page and I will respond as soon as I can.
+                    If you would like to connect please fill out the contact form on this page and I will respond as
+                    soon as I can.
                 </div>
                 <div class="col-lg-6">
-                    <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/alexgolding@icloud.com"
-                        method="post">
+                    <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8"
+                        action="https://formspree.io/alexgolding@icloud.com" method="post">
                         <fieldset id="fs-frm-inputs">
                             <label for="full-name">Full Name</label>
                             <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
                             <label for="email-address">Email Address</label>
-                            <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                            <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld"
+                                required="">
                             <label for="message">Message</label>
-                            <textarea rows="5" name="message" id="message"
-                                placeholder="Enter message here."
+                            <textarea rows="5" name="message" id="message" placeholder="Enter message here."
                                 required=""></textarea>
                             <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
                         </fieldset>
@@ -144,5 +166,16 @@ Contact Section
     <footer class="footer container-fluid text-center">
         Portfolio Alex Golding © 2019
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f9ab722fd6.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

@@ -1,17 +1,78 @@
 body {
-    margin-top;: 0;
+    margin-top: 0;
 }
+
+#nav {
+    background-color: #24537D;
+    color: #fff;
+    display: flex;
+}
+
+.navbar-nav {
+    width: 100vw;
+}
+
+.collapse {
+    z-index: 27;
+    background-color: #24537D;
+}
+
 #about-me {
-    background-image: url('https://images.unsplash.com/photo-1444837881208-4d46d5c1f127?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1201&q=80');
+    background-image: url('https://images.unsplash.com/photo-1538947151057-dfe933d688d1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
     background-size: cover;
-    background-attachment: fixed;
-    background-position: fixed;
+    background-position: 40% 60%;
+    height: 430px;
+    padding-top: 15px;
+    padding: 20px;
+}
+
+p {
+    padding: 15px;
+}
+
+li {
+    text-align: center;
+}
+
+.a.btn.btn-success {
+    vertical-align: center;
+}
+
+section {
+    padding: 15px 0 10px;
+}
+
+ul li {
+    line-height: 2em;
+}
+
+#title {
+    text-align: center;
+}
+
+.title-image {
+    border-radius: 50%;
+    margin: 5px;
 }
 
 .navbar{
     height: 75px;
     width: 100%;
 }
+
+.navbar-btn {
+    margin-top: 2%;
+}
+
+#projects {
+    background-color: #5f6769;
+}
+
+.footer {
+    background-color: #24537D;
+    color: white;
+}
+
 #fs-frm input,
 #fs-frm select,
 #fs-frm textarea,
