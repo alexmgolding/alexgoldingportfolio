@@ -26,110 +26,143 @@ Contact Section
 </head>
 
 <body>
-    <section id="nav">
-        <nav class="navbar navbar-expand-md navbar-dark navbar-fixed-top">
-            <a class="navbar-brand" href=""><i class="fab fa-dev mr-2"></i>profile</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuBar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="menuBar">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                    <li class="navbar-btn">
-                        <a class="btn btn-success"
-                            href="https://docs.google.com/document/d/e/2PACX-1vR8-gzMY805YdS4ebExnTOWD97GeQsIqQrLSpAZPHNf1MtXtsxGrZ3yR0Yznx_goA5NAsSdWXQsHjKl/pub"
-                            target="blank">Resume Download</a>
-                    </li>
-                </ul>
+    <section class="container-fluid" id="nav">
+        <div class="d-flex flex-column">
+            <div>
+                <header>
+                    <nav class="navbar navbar-expand-md navbar-dark navbar-fixed-top">
+                        <a class="navbar-brand" href=""><i class="fab fa-dev mr-2"></i>profile</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuBar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="menuBar">
+                            <div class="navbar-nav mr-auto"></div>
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#projects"><i class="fas fa-code"></i> Projects</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#contact"><i class="far fa-address-book"></i> Contact</a>
+                                </li>
+                                <li class="navbar-btn">
+                                    <a class="btn btn-success"
+                                        href="https://docs.google.com/document/d/e/2PACX-1vR8-gzMY805YdS4ebExnTOWD97GeQsIqQrLSpAZPHNf1MtXtsxGrZ3yR0Yznx_goA5NAsSdWXQsHjKl/pub"
+                                        target="blank">Resume Download</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </header>
             </div>
-        </nav>
+        </div>
     </section>
-    <section id="title">
-        <div class="container">
-            <div class="row">
-                <div class="title-heading col-md 12">
-                    <h1>Alex Golding | Junior Web Developer</h1>
-                    <a href="https://docs.google.com/document/d/e/2PACX-1vR8-gzMY805YdS4ebExnTOWD97GeQsIqQrLSpAZPHNf1MtXtsxGrZ3yR0Yznx_goA5NAsSdWXQsHjKl/pub" target="blank" class="btn btn-outline-dark btn-lg download-button"><i
-                            class="fas fa-file-download"> </i>
-                        Resume</a>
-                    <a href="https://www.linkedin.com/in/alexmgolding" target="blank"
-                        class="btn btn-outline-dark btn-lg download-button"><i class="fab fa-linkedin"></i>
-                        LinkedIn</a>
-                        <a href="https://https://github.com/alexmgolding" target="blank" class="btn btn-outline-dark btn-lg download-button"><i class="fab fa-github"></i> GitHub</a>
-                </div>
+    <section class="container-fluid p-0" id="title">
+        <div class="d-flex flex-column">
+            <div class="title-heading col-md 12">
+                <h1>Alex Golding | Full Stack Developer</h1>
+                <a href="https://docs.google.com/document/d/e/2PACX-1vR8-gzMY805YdS4ebExnTOWD97GeQsIqQrLSpAZPHNf1MtXtsxGrZ3yR0Yznx_goA5NAsSdWXQsHjKl/pub"
+                    target="blank" class="btn btn-outline-dark btn-lg download-button"><i class="fas fa-file-download">
+                    </i>
+                    Resume</a>
+                <a href="https://www.linkedin.com/in/alexmgolding" target="blank"
+                    class="btn btn-outline-dark btn-lg download-button"><i class="fab fa-linkedin"></i>
+                    LinkedIn</a>
+                <a href="https://github.com/alexmgolding" target="blank"
+                    class="btn btn-outline-dark btn-lg download-button"><i class="fab fa-github"></i> GitHub</a>
             </div>
         </div>
     </section>
     <!-- About Me -->
-    <section id="about-me">
-        <div class="container">
-            <h2 class="text-center">About Me</h2>
-            <div class="row">
-                <div class="col-md-3 text-center">
-                    <img src="images/headshot.jpeg" alt="" class="title-image">
-                </div>
-                <div class="col-md-9 text-center">
-                    <p>Hi, my name is Alex Golding and I'm an aspiring front end web developer living in the
-                        Indianapolis, Indiana area. I've always had an interesting in learning how computers interpret
-                        code for the end users. This interest led me to Eleven Fifty's JavaScript program to learn more about front end development.
-                        <br>
-                        <br>
-                        When not in class I enjoy walking my dogs, fishing and watching football.
-                    </p>
+    <section class="container-fluid p-0" id="about-me">
+        <div class="d-flex flex-column text-center">
+            <div>
+                <h1 class="text-center">About Me</h1>
+                <div class="row">
+                    <div class="col-md-3 text-center">
+                        <img src="images/headshot.jpeg" alt="headshot image" class="title-image">
+                    </div>
+                    <div class="col-md-9 text-center">
+                        <p>Hi, my name is Alex Golding and I'm an aspiring front end web developer living in the
+                            Indianapolis, Indiana area. I've always had an interesting in learning how computers
+                            interpret code for the end users. This interest led me to Eleven Fifty's JavaScript program
+                            to learnmore about front end development.
+                        </p>
+                        <p>
+                            When not in class I enjoy walking my dogs, fishing and watching football.
+                        </p>
+                    </div>
                 </div>
             </div>
+        </div>
     </section>
     <!-- Projects -->
-    <section id="projects">
-        <div class="container">
-            <h2 class="text-center">Projects</h2>
-            <div class="row">
-                <div class="col-lg-4 mb-4">
-                    <div class="card" style="width: 100%;">
-                        <img src="images/Tutorial Page.jpeg" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title"><i class="fab fa-js-square mr-1"></i>Tutorial Page</h5>
-                            <p class="card-text">For this project we were introduced to Bootstrap and utilized this
-                                heavily for this project. There was a deeper understanding into HTML elements and CSS
-                                elements and events that also appear on the page.</p>
-                            <a href="https://alexmgolding.github.io/tutorial/" target="blank">Visit Tutorial Page on
-                                Github</a>
-                            <h6>Tags</h6>
-                            HTML<i class="fab fa-html5"></i>, CSS<i class="fab fa-css3-alt"></i>, <i
-                                class="fab fa-bootstrap"></i>ootstrap
-                        </div>
+    <section class="container-fluid" id="projects">
+        <div class="d-flex flex-column text-center projects">
+            <div>
+                <i class="fas fa-code fa-3x"></i>
+                <h3>Projects</h3>
+            </div>
+            <div class="card-deck">
+                <div class="card">
+                    <img src="images/consoleapp.jpg" class="card-img-top" alt="consoleApp">
+                    <div class="card-body">
+                        <h5 class="card-title">C# Console Application</h5>
+                        <p class="card-text">Utilizing C# properties 3 separate console application were made during
+                            this project.
+                        </p>
+                        <a href="https://github.com/alexmgolding/GoldBadgeChallenges.git" target="blank">Console
+                            Applications</a>
+                        <br />
+                        <p>
+                        <h6>Tags</h6>
+                        C# | .Net Framework
+                        </p>
                     </div>
                 </div>
-                <div class="col-lg-4 mb-4">
-                    <div class="card" style="width: 100%;">
-                        <img src="images/pacman.jpeg" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Pac-Man CSS Creature</h5>
-                            <p class="card-text">Utilizing HTML and CSS properties I created Pac-Man for this project.
-                            </p>
-                            <a href="https://codepen.io/yeti14/pen/dyyWbEB" target="blank">Pac-Man CodePen</a>
-                            <h6>Tags</h6>
-                            HTML<i class="fab fa-html5"></i>, CSS <i class="fab fa-css3-alt"></i>
-                        </div>
+                <div class="card">
+                    <img src="images/API.jpeg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">API Project</h5>
+                        <p class="card-text">Using an API from Barchart.com this API pulls back the closing prices
+                            of a specific stock the user is searching for.</p>
+                        <a href="https://stock-api-67c70.firebaseapp.com/" target="blank">Stock Indices Search</a>
+                        <p>
+                        <h6>Tags</h6>
+                        HTML<i class="fab fa-html5"></i> | CSS<i class="fab fa-css3-alt"></i> |<i
+                            class="fab fa-js-square mr-1 ml-1"></i>JavaScript
+                        </p>
                     </div>
                 </div>
-                <div class="col-lg-4 mb-4">
-                    <div class="card" style="width: 100%;">
-                        <img src="images/API.png" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">API Project</h5>
-                            <p class="card-text">Using an API from Barchart.com this API pulls back the closing prices
-                                of a specific stock the user is searching for.</p>
-                            <a href="https://stock-api-67c70.firebaseapp.com/" target="blank">Stock Indices Search</a>
-                            <h6>Tags</h6>
-                            HTML<i class="fab fa-html5"></i>, CSS<i class="fab fa-css3-alt"></i>,<i
-                                class="fab fa-js-square mr-1 ml-1"></i>JavaScript
-                        </div>
+                <div class="card">
+                    <img src="images/Happy Grillmore.jpeg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Happy Grillmore</h5>
+                        <p class="card-text">
+                            Utilizing React and Bootstrap I developed the website Happy Grillmore.
+                        </p>
+                        <a href="https://ag-happygrillmore-log.herokuapp.com/" target="blank">Visit Happy Grillmore</a>
+                        <p>
+                        <h6>Tags</h6>
+                        HTML<i class="fab fa-html5"></i> | CSS<i class="fab fa-css3-alt"></i> | <i
+                            class="fab fa-js-square mr-1 ml-1"></i>JavaScript, React
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/Red Apron.jpeg" class="card-img-top">
+                    <div class="card-body">
+                        <h1 class="card-title">The Red Apron Project</h1>
+                        <p class="card-text">
+                            Utilize Angular, Typscript, HTML, CSS and everything that we've learned
+                            throughout the program my team and I created the Red Apron app.
+                        </p>
+                        <a href="https://red-apron-client.herokuapp.com/home" target="blank">Red Apron</a>
+                        <p>
+                        <h6>Tags</h6>
+                        HTML<i class="fab fa-html5"></i> | CSS<i class="fab fa-css3-alt"></i> | <i
+                            class="fab fa-js-square mr-1 ml-1"></i>JavaScript | <i class="fab fa-angular"></i>
+                        Angular | Typescript | Material
+                        </p>
                     </div>
                 </div>
             </div>
@@ -138,7 +171,7 @@ Contact Section
     <!-- Contact Me -->
     <section id="contact">
         <h2 class="text-center text-uppercase">Contact</h2>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6">
                     If you would like to connect please fill out the contact form on this page and I will respond as
@@ -165,7 +198,7 @@ Contact Section
         </div>
     </section>
     <footer class="footer container-fluid text-center">
-        Portfolio Alex Golding © 2019
+        Alex Golding's Portfolio © 2020
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
